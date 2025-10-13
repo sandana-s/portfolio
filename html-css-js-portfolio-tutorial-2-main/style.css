@@ -353,8 +353,11 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
+
 
 .article-container {
   display: flex;
